@@ -1,7 +1,7 @@
 import pyautogui, time, os, webbrowser
-
-chromedir = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
-webbrowser.get(chromedir).open("https://www.linkedin.com/mynetwork/invitation-manager/sent/?invitationType=&page=2")
+page = input('enter page number')
+chromedir = '<insert chrome.exe address> %s'
+webbrowser.get(chromedir).open(f"https://www.linkedin.com/mynetwork/invitation-manager/sent/?invitationType=&page={page}")
 
 #pyautogui.FAILSAFE = True
 #time.sleep(1)
