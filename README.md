@@ -1,2 +1,2 @@
 # LinkedIn-Request-Withdrawal-
-GUI automation using python
+LinkedIn sent requests withdrawal automation using python
